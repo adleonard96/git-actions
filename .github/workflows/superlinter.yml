@@ -21,4 +21,5 @@ jobs:
         uses: super-linter/super-linter@v7.1.0
         env:
           DEFAULT_BRANCH: main
+          FIX_MARKDOWN: true
           # GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} 
